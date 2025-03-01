@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f956c73-9a5b-46e3-a35e-6d96ff52de3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataSource/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/RestaurantCrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaticTest/StaticDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/migration/databaseCreation.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/migration/databaseInsert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishIngredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/MoveType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/StockMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/UnitMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/liantsoa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DishStaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DishTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tO5486ZpC5N6wuvXT4PVGcTciZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DishStaticTest.executor": "Run",
+    "JUnit.DishStaticTest.testDishGrossMargin.executor": "Run",
+    "JUnit.DishStaticTest.testGetIngredientCost.executor": "Run",
+    "JUnit.DishTest.executor": "Run",
+    "JUnit.DishTest.testAvailableQuantityAfterMovements.executor": "Run",
+    "JUnit.DishTest.testAvailableQuantityForNewIngredients.executor": "Run",
+    "JUnit.DishTest.testDishAvailableQuantity.executor": "Run",
+    "JUnit.DishTest.testFilterAndPaginateDish.executor": "Run",
+    "JUnit.DishTest.testFilterAndPaginateDishWithCurrentDate.executor": "Run",
+    "JUnit.DishTest.testFilterAndPaginateDishWithDate.executor": "Run",
+    "JUnit.DishTest.testGrossMargin.executor": "Run",
+    "JUnit.DishTest.testGrossMarginWithClosestDate.executor": "Run",
+    "JUnit.DishTest.testGrossMarginWithSpecificDate.executor": "Run",
+    "JUnit.DishTest.testPagination.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/3D Objects/tapakila-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/USER/3D Objects/2.0_PORG3_TD2/src/main/java/org/liantsoa/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DishTest.testAvailableQuantityAfterMovements">
+    <configuration name="DishTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <envs>
+        <env name="DATABASE_USER" value="gastro" />
+        <env name="DATABASE_PASSWORD" value="lia" />
+        <env name="DATABASE_NAME" value="restaurant2" />
+        <env name="DATABASE_HOST" value="localhost" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishTest.testAvailableQuantityAfterMovements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="METHOD_NAME" value="testAvailableQuantityAfterMovements" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="DATABASE_USER" value="gastro" />
+        <env name="DATABASE_PASSWORD" value="lia" />
+        <env name="DATABASE_NAME" value="restaurant2" />
+        <env name="DATABASE_HOST" value="localhost" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishTest.testDishAvailableQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="METHOD_NAME" value="testDishAvailableQuantity" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="DATABASE_USER" value="gastro" />
+        <env name="DATABASE_PASSWORD" value="lia" />
+        <env name="DATABASE_NAME" value="restaurant2" />
+        <env name="DATABASE_HOST" value="localhost" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishTest.testFilterAndPaginateDishWithCurrentDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="METHOD_NAME" value="testFilterAndPaginateDishWithCurrentDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="DATABASE_USER" value="gastro" />
+        <env name="DATABASE_PASSWORD" value="lia" />
+        <env name="DATABASE_NAME" value="restaurant2" />
+        <env name="DATABASE_HOST" value="localhost" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishTest.testGrossMarginWithClosestDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="METHOD_NAME" value="testGrossMarginWithClosestDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="DATABASE_USER" value="gastro" />
+        <env name="DATABASE_PASSWORD" value="lia" />
+        <env name="DATABASE_NAME" value="restaurant2" />
+        <env name="DATABASE_HOST" value="localhost" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DishTest.testDishAvailableQuantity" />
+      <item itemvalue="JUnit.DishTest.testGrossMarginWithClosestDate" />
+      <item itemvalue="JUnit.DishTest.testFilterAndPaginateDishWithCurrentDate" />
+      <item itemvalue="JUnit.DishTest" />
+      <item itemvalue="JUnit.DishTest.testAvailableQuantityAfterMovements" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DishTest.testAvailableQuantityAfterMovements" />
+        <item itemvalue="JUnit.DishTest.testDishAvailableQuantity" />
+        <item itemvalue="JUnit.DishTest" />
+        <item itemvalue="JUnit.DishTest.testGrossMarginWithClosestDate" />
+        <item itemvalue="JUnit.DishTest.testFilterAndPaginateDishWithCurrentDate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f956c73-9a5b-46e3-a35e-6d96ff52de3a" name="Changes" comment="" />
+      <created>1740210087300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740210087300</updated>
+      <workItem from="1740210088471" duration="9000" />
+      <workItem from="1740211645982" duration="2626000" />
+      <workItem from="1740380141711" duration="3680000" />
+      <workItem from="1740389772594" duration="8670000" />
+      <workItem from="1740506670134" duration="3058000" />
+      <workItem from="1740545266675" duration="7279000" />
+      <workItem from="1740655312454" duration="25000" />
+      <workItem from="1740678055005" duration="6142000" />
+      <workItem from="1740725581110" duration="17479000" />
+      <workItem from="1740767520302" duration="2096000" />
+      <workItem from="1740813959323" duration="8971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/liantsoa/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>
+          <line>22</line>
+          <properties class="DishTest" method="testFilterAndPaginateDishWithDate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>
+          <line>78</line>
+          <properties class="DishTest" method="testAvailableQuantityAfterMovements">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2_0_PROG3_TD2$DishTest_testGrossMarginWithClosestDate.ic" NAME="DishTest.testGrossMarginWithClosestDate Coverage Results" MODIFIED="1740549243837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
