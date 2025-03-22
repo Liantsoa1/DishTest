@@ -15,6 +15,10 @@ public class Price {
         this.date = date;
     }
 
+    public Price(int amount) {
+        this.amount = amount;
+    }
+
     public int getIdPrice() {
         return idPrice;
     }

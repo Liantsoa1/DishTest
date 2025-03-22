@@ -22,8 +22,6 @@ public class Dish {
         this.unitPrice = unitPrice;
     }
 
-
-
     public Dish(int idDish, String name, int unitPrice, List<DishIngredient> ingredients) {
         this.idDish = idDish;
         this.name = name;

@@ -3,24 +3,24 @@ package StaticTest;
 import entity.*;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/*
 public class StaticDataSource {
     public static Dish getPlatsTest() {
         Price saucissePrice = new Price(1, 20, Unit.G, LocalDate.of(2025, 1, 1));
-        Ingredient saucisse = new Ingredient(1, "Saucisse", saucissePrice);
+        Ingredient saucisse = new Ingredient(1, "Saucisse", saucissePrice, stockMoves);
 
         Price huilePrice = new Price(2, 10000, Unit.L, LocalDate.of(2025, 1, 1));
-        Ingredient huile = new Ingredient(2, "Huile", huilePrice);
+        Ingredient huile = new Ingredient(2, "Huile", huilePrice, stockMoves);
 
         Price oeufPrice = new Price(3, 1000, Unit.U, LocalDate.of(2025, 1, 1));
-        Ingredient oeuf = new Ingredient(3, "Oeuf", oeufPrice);
+        Ingredient oeuf = new Ingredient(3, "Oeuf", oeufPrice, stockMoves);
 
         Price painPrice = new Price(4, 1000, Unit.U, LocalDate.of(2025, 1, 1));
-        Ingredient pain = new Ingredient(4, "Pain", painPrice);
+        Ingredient pain = new Ingredient(4, "Pain", painPrice, stockMoves);
 
         DishIngredient saucisses = new DishIngredient(saucisse, 100, Unit.G);
         DishIngredient huiles = new DishIngredient(huile, 0.15F, Unit.L);
@@ -34,4 +34,4 @@ public class StaticDataSource {
         return hotDog;
     }
 
-}
+}*/

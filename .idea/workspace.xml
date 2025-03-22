@@ -5,30 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f956c73-9a5b-46e3-a35e-6d96ff52de3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataSource/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/RestaurantCrudOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StaticTest/StaticDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/migration/databaseCreation.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/migration/databaseInsert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishIngredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/MoveType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/StockMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/UnitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/liantsoa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DishStaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DishTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/CrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/DishCrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/DishDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/DishOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/IngredientCrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/PriceCrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DishDAO/StockMovementCrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/1_create_table_dish.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/2_create_table_ingredient.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/3_create_table_price.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/4_create_table_dish_ingredient.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/5_create_table_stock_move.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrderStatusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StaticTest/StaticDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticTest/StaticDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/migration/databaseCreation.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/migration/databaseInsert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.migration/databaseInsert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DishStaticTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,11 +77,16 @@
     "JUnit.DishTest.testGrossMarginWithClosestDate.executor": "Run",
     "JUnit.DishTest.testGrossMarginWithSpecificDate.executor": "Run",
     "JUnit.DishTest.testPagination.executor": "Run",
+    "JUnit.OrderStatusTest.setUp.executor": "Run",
+    "JUnit.OrderStatusTest.testInitialStatusIsCreated.executor": "Run",
+    "JUnit.OrderTest.executor": "Run",
+    "JUnit.OrderTest.testGetDishOrders.executor": "Run",
+    "JUnit.OrderTest.testGetTotalAmount.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/3D Objects/tapakila-backend",
+    "last_opened_file_path": "C:/Users/USER/3D Objects/Prog3 td3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,18 +97,62 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\3D Objects\2.0_PROG3_TD2\src\main\resources\db.migration" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DishTest.testAvailableQuantityAfterMovements">
-    <configuration name="DishTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderStatusTest.testConfirmOrderWithSufficientIngredients">
+    <configuration name="OrderStatusTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2.0_PORG3_TD2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="MAIN_CLASS_NAME" value="OrderStatusTest" />
+      <option name="METHOD_NAME" value="setUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="DATABASE_USER" value="gastro" />
+        <env name="DATABASE_PASSWORD" value="lia" />
+        <env name="DATABASE_NAME" value="restaurant2" />
+        <env name="DATABASE_HOST" value="localhost" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderStatusTest.testConfirmOrderWithSufficientIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderStatusTest" />
+      <option name="METHOD_NAME" value="testConfirmOrderWithSufficientIngredients" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderStatusTest.testInitialStatusIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderStatusTest" />
+      <option name="METHOD_NAME" value="testInitialStatusIsCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2.0_PORG3_TD2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <envs>
@@ -112,59 +165,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DishTest.testAvailableQuantityAfterMovements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.testGetTotalAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2.0_PORG3_TD2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="testAvailableQuantityAfterMovements" />
-      <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="DATABASE_USER" value="gastro" />
-        <env name="DATABASE_PASSWORD" value="lia" />
-        <env name="DATABASE_NAME" value="restaurant2" />
-        <env name="DATABASE_HOST" value="localhost" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DishTest.testDishAvailableQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2.0_PORG3_TD2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="testDishAvailableQuantity" />
-      <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="DATABASE_USER" value="gastro" />
-        <env name="DATABASE_PASSWORD" value="lia" />
-        <env name="DATABASE_NAME" value="restaurant2" />
-        <env name="DATABASE_HOST" value="localhost" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DishTest.testFilterAndPaginateDishWithCurrentDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2.0_PORG3_TD2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="testFilterAndPaginateDishWithCurrentDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="DATABASE_USER" value="gastro" />
-        <env name="DATABASE_PASSWORD" value="lia" />
-        <env name="DATABASE_NAME" value="restaurant2" />
-        <env name="DATABASE_HOST" value="localhost" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DishTest.testGrossMarginWithClosestDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2.0_PORG3_TD2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="testGrossMarginWithClosestDate" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
+      <option name="METHOD_NAME" value="testGetTotalAmount" />
       <option name="TEST_OBJECT" value="method" />
       <envs>
         <env name="DATABASE_USER" value="gastro" />
@@ -177,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DishTest.testDishAvailableQuantity" />
-      <item itemvalue="JUnit.DishTest.testGrossMarginWithClosestDate" />
-      <item itemvalue="JUnit.DishTest.testFilterAndPaginateDishWithCurrentDate" />
-      <item itemvalue="JUnit.DishTest" />
-      <item itemvalue="JUnit.DishTest.testAvailableQuantityAfterMovements" />
+      <item itemvalue="JUnit.OrderStatusTest.testConfirmOrderWithSufficientIngredients" />
+      <item itemvalue="JUnit.OrderStatusTest.setUp" />
+      <item itemvalue="JUnit.OrderStatusTest.testInitialStatusIsCreated" />
+      <item itemvalue="JUnit.OrderTest.testGetTotalAmount" />
+      <item itemvalue="JUnit.OrderTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DishTest.testAvailableQuantityAfterMovements" />
-        <item itemvalue="JUnit.DishTest.testDishAvailableQuantity" />
-        <item itemvalue="JUnit.DishTest" />
-        <item itemvalue="JUnit.DishTest.testGrossMarginWithClosestDate" />
-        <item itemvalue="JUnit.DishTest.testFilterAndPaginateDishWithCurrentDate" />
+        <item itemvalue="JUnit.OrderStatusTest.testConfirmOrderWithSufficientIngredients" />
+        <item itemvalue="JUnit.OrderStatusTest.testInitialStatusIsCreated" />
+        <item itemvalue="JUnit.OrderStatusTest.setUp" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.OrderTest.testGetTotalAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +224,11 @@
       <workItem from="1740678055005" duration="6142000" />
       <workItem from="1740725581110" duration="17479000" />
       <workItem from="1740767520302" duration="2096000" />
-      <workItem from="1740813959323" duration="8971000" />
+      <workItem from="1740813959323" duration="9353000" />
+      <workItem from="1741851234173" duration="5194000" />
+      <workItem from="1742014465494" duration="8654000" />
+      <workItem from="1742563427714" duration="22335000" />
+      <workItem from="1742619862319" duration="4863000" />
     </task>
     <servers />
   </component>
@@ -243,6 +252,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>
           <line>122</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DishDAO/DishDAO.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>

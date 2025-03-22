@@ -11,7 +11,7 @@ public class Ingredient {
     private Price price;
     private List<StockMove> stockMoves;
 
-    public Ingredient(int idIngredient, String name, Price price) {
+    public Ingredient(int idIngredient, String name, Price price, List<StockMove> stockMoves) {
         this.idIngredient = idIngredient;
         this.name = name;
         this.price = price;
